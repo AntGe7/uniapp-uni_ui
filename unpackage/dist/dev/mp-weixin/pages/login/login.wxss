@@ -1,0 +1,155 @@
+
+.content.data-v-e4e4508d {
+  height: 100vh;
+  background-color: aquamarine;
+  background: url("https://www.galaxyclub.cn/Upload/IMAGES/15/0615/38af439784544e95b7c64cad64a14157_650x650.jpg") no-repeat;
+  background-size: cover;
+}
+.topBox.data-v-e4e4508d {
+  font-size: 34rpx;
+  color: #fff;
+  padding: 80rpx 50rpx;
+}
+h3.data-v-e4e4508d {
+  margin-bottom: 10rpx;
+}
+.inputBox.data-v-e4e4508d {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85vh;
+  background-color: #fff;
+  border-top-left-radius: 40rpx;
+  border-top-right-radius: 40rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  z-index: 100;
+}
+.tab.data-v-e4e4508d {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.tab-item.data-v-e4e4508d {
+  flex: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  font-size: 28rpx;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  transition: color 1s ease;
+}
+.tab-item.active.data-v-e4e4508d {
+  color: #4a90e2;
+}
+.tab-item.active.data-v-e4e4508d::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 60%;
+  height: 4rpx;
+  background-color: #4a90e2;
+  border-radius: 2rpx;
+}
+.ipt.data-v-e4e4508d {
+  margin-bottom: 50rpx;
+}
+.password-wrapper.data-v-e4e4508d {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.password-wrapper input.data-v-e4e4508d {
+  flex: 1;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+  padding-right: 40rpx; /* Space for the icon */
+}
+.icon-btn.data-v-e4e4508d {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.code-input.data-v-e4e4508d {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.code-input input.data-v-e4e4508d {
+  flex: 1;
+  padding-right: 120rpx;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.send-code-btn.data-v-e4e4508d {
+  position: absolute;
+  right: 0;
+  top: 30%;
+  transform: translateY(-50%);
+  padding: 10rpx 20rpx 10rpx 20rpx;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  font-size: 28rpx;
+  border-radius: 5rpx;
+  transition: background-color 0.3s;
+}
+.send-code-btn.disabled.data-v-e4e4508d {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.ipt h4.data-v-e4e4508d {
+  margin-bottom: 20rpx;
+  font-size: 36rpx;
+  color: #333;
+}
+.ipt input.data-v-e4e4508d {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+}
+.loginBtn.data-v-e4e4508d {
+  margin-top: 20rpx;
+  line-height: 85rpx;
+  text-align: center;
+  background: linear-gradient(to right, rgb(86, 104, 214), rgb(86, 104, 214));
+  border-radius: 40rpx;
+  color: #fff;
+  margin-top: 50rpx;
+}
+.registerBtn.data-v-e4e4508d {
+  margin-top: 20rpx;
+  line-height: 85rpx;
+  text-align: center;
+  border-radius: 40rpx;
+  color: rgb(86, 104, 214);
+  margin-top: 50rpx;
+  border: none;
+}
+.otherUser.data-v-e4e4508d {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+.txt.data-v-e4e4508d {
+  font-size: 28rpx;
+  color: #969696;
+  text-align: center;
+  margin-top: 36rpx;
+}
+.otherUser .uni-icons.data-v-e4e4508d {
+  margin-left: 20rpx;
+}
+input.data-v-e4e4508d, textarea.data-v-e4e4508d {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
